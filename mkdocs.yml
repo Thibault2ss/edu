@@ -1,5 +1,5 @@
 site_name: EDU Project
-
+site_author: Thibault de Saint Sernin
 theme:
     name: 'material'
     palette:
