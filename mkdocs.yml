@@ -1,1 +1,33 @@
-site_name: My Docs
+site_name: EDU Project
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'cyan'
+    accent: 'cyan'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  feature:
+    tabs: true
+
+repo_name: 'Thibault2ss/edu'
+repo_url: 'https://github.com/Thibault2ss/edu'
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/Thibault2ss/edu'
+    - type: 'twitter'
+      link: ''
+    - type: 'linkedin'
+      link: ''
+
+copyright: 'Copyright &copy; 2016 - 2018 Thibault de Saint Sernin'
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
